@@ -1,0 +1,39 @@
+/* Webfont: PFAgora Sans Pro Light */@font-face {
+    font-family: 'PF Agora Sans Pro Light';
+    src: url('../fonts/PFAgoraSansPro/PFAgoraSansPro-Light_35306.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: PFAgora Sans Pro XThin */@font-face {
+    font-family: 'PFAgora Sans Pro XThin';
+    src: url('../fonts/PFAgoraSansPro/PFAgoraSansPro-XThin_35315.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: PFAgora Sans Pro Thin */@font-face {
+    font-family: 'PFAgora Sans Pro Thin';
+    src: url('../fonts/PFAgoraSansPro/PFAgoraSansPro-Thin_35311.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: PFAgora Sans Pro Regular */@font-face {
+    font-family: 'PFAgora Sans Pro Regular';
+    src: url('../fonts/PFAgoraSansPro/PFAgoraSansPro-Regular_35310.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: PFAgora Sans Pro Bold */@font-face {
+    font-family: 'PFAgora Sans Pro Bold';
+    src: url('../fonts/PFAgoraSansPro/PFAgoraSansPro-Bold_35303.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
