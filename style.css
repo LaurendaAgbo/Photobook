@@ -43,12 +43,17 @@ ul {
 	margin-right: 0;
 }
 
+#logoContainer {
+	padding-left: 0px;
+}
+
 #logo {
 	width: 84px;
 }
 
 #navigation {
 	padding-left: 0;
+	padding-right: 0;
 }
 
 #navigation ul {
@@ -86,9 +91,14 @@ ul {
 	#panel .navbar-brand {
 		margin-right: 1rem;
 	}
+	
+	#logoContainer {
+		padding-left: 1em;
+	}
 
 	#navigation {
 		padding-left: 1em;
+		padding-right: 1em;
 	}
 	#navigation ul {
 		float: right;
@@ -127,6 +137,86 @@ ul {
 
 /***** DEBUT MAIN BANNER   ****/
 
+#mainBanner {
+	background: url(images/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+}
+
+#headerText {
+    min-height: 320px;
+    padding: 20px 0 0;
+	color: #000000;
+}
+
+#slidetext1 {
+	font-family: "PFAgora Sans Pro XThin";
+	font-size: 36px;
+}
+
+#slidetext2 {
+	font-size: 16px;
+	font-family: "PF Agora Sans Pro Light";
+	margin-bottom: 2.8em;
+	font-weight: 600;
+}
+
+#makeButton {
+	font-family: "PFAgora Sans Pro Thin";
+	font-size: 20px;
+	padding: 0.7rem 1.5rem;
+    border: 1px solid #010101;
+	color: #212121;
+	text-transform: uppercase;
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	#headerText {
+		min-height: 350px;
+		padding: 60px 0 0;
+	}
+	
+	#slidetext1 {
+		font-size: 36px;
+	}
+	
+	#slidetext2 {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#headerText {
+		min-height: 370px;
+		padding: 50px 0 290px;
+	}
+	
+	#slidetext1 {
+		font-size: 60px;
+	}
+	
+	#slidetext2 {
+		font-size: 24px;
+	}
+	
+	#makeButton {
+		padding: 1rem 3.5rem;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#headerText {
+		min-height: 370px;
+		padding: 50px 0 200px;
+	}
+	
+	#slidetext1 {
+		font-size: 50px;
+	}
+}
 
 
 /****	FIN  MAIN BANNER   ****/
