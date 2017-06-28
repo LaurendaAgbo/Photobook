@@ -166,7 +166,7 @@ ul {
 
 #makeButton {
 	font-family: "PFAgora Sans Pro Thin";
-	font-size: 20px;
+	font-size: 18px;
 	padding: 0.7rem 1.5rem;
     border: 1px solid #010101;
 	color: #212121;
@@ -378,7 +378,7 @@ span.s-one, span.s-two, span.s-tre {
 	color: #000;
 }
 
-#advantageTitle h3 {
+#advantageTitle h3, #testimonials h3 {
 	font-family: "PFAgora Sans Pro XThin";
 	font-size: 43px;
 	margin-bottom: 3rem;
@@ -412,7 +412,7 @@ span.s-one, span.s-two, span.s-tre {
 }
 
 @media screen and (min-width: 578px) {
-	#advantageTitle h3 {
+	#advantageTitle h3, #testimonials h3 {
 		font-size: 60px;
 	}
 	
@@ -453,7 +453,102 @@ span.s-one, span.s-two, span.s-tre {
 
 /***** DEBUT TESTIMONIALS   ****/
 
+#testimonials {
+	background: url(images/banner2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
 
+#testimony img {
+	max-width: 170px;
+	width: 100%;
+}
+
+#doe {
+	padding: 0.5rem;
+}
+
+#testimonyName {
+	font-family: "PF Agora Sans Pro Light";
+	font-size: 18px;
+}
+
+#testimonyFonction {
+	font-family: "PF Agora Sans Pro Light";
+	font-size: 16px;
+}
+
+.testimonyText1 {
+	font-family: "PF Agora Sans Pro Light";
+	font-size: 18px;
+}
+
+#nextTestimonial {
+	padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+#nextTestimonial p {
+	float: right;
+} 
+
+#nextTestimonial a {
+	font-family: "PFAgora Sans Pro Thin";
+	font-size: 16px;
+	color: #000;
+}
+
+@media screen and (min-width: 480px) and (max-width: 577px) {
+	#doe {
+		padding: 2rem 0rem;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {	
+	#doe {
+		padding: 3rem 0rem;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {	
+	#doe {
+		padding: 1rem 0.5rem;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {	
+	#testimonyName {
+		font-family: "PF Agora Sans Pro Light";
+		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {	
+	#doe {
+		padding: 2rem 0.5rem;
+	}
+}
+
+@media screen and (min-width: 1200px) {	
+	#testimony img {
+		max-width: 170px;
+		width: auto;
+	}
+	
+	#testimonyName {
+		font-family: "PF Agora Sans Pro Light";
+		font-size: 30px;
+	} 
+	
+	#doe {
+		padding: 3.5rem 2.5rem;
+	}
+}
 
 /****	FIN  TESTIMONIALS   ****/
 
