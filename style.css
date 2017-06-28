@@ -223,8 +223,326 @@ ul {
 
 /***** DEBUT STEP   ****/
 
+#step {
+	padding: 2rem 0px;
+}
+
+.steps{
+	text-align:center;
+	position:relative;
+	width: 50%;
+	/* width: 25%;
+	float: left; */
+}
+
+.steps:nth-child(1),
+.steps:nth-child(2){
+	margin-bottom:15px;
+}
+
+span.s-one, span.s-two, span.s-tre {
+	display: none;
+}
+
+.steps img {
+    border: 3px solid #ffd200;
+    border-radius: 4.1rem;
+    padding: 0;
+	width: 75%;
+}
+
+.steps p {
+  	color: #000000;
+	font-size: 13px;
+  	font-weight: 500;
+	margin: 10px auto 0;
+	width: 87%;
+  	line-height: 1.3em;
+	font-family: "PF Agora Sans Pro Light";
+}
+.steps span {
+  	position: absolute;
+  	background: url(images/tiret1.png) no-repeat;
+	width: 58px;
+	height: 3px;
+	top: 27%;
+  	right: 78%;
+	background-size: 100%;
+}
+/* 
+.steps span {
+  	position: absolute;
+  	background: url(images/tiret1.png) no-repeat;
+  	width: 183px;
+  	height: 5px;
+  	display: block;
+  	top: 27%;
+  	right: 77.1%;
+}
+
+.steps img {
+    border: 3px solid #ffd200;
+    border-radius: 4.1rem;
+    padding: 1.5em;
+}
+
+.steps p {
+  	color: #000000;
+  	font-size: 1.5em;
+  	font-weight: 500;
+  	margin: 20px auto 0;
+  	width: 54%;
+  	line-height: 1.3em;
+	font-family: "PF Agora Sans Pro Light";
+}
+
+@media (max-width:1024px) {
+	.steps img {
+		width: 50%;
+	}
+	.steps p {
+		font-size: 1.25em;
+		margin: 15px auto 0;
+		width: 62%;
+	}
+	.steps span {
+		width: 110px;
+		top: 25%;
+		right: 76.3%;
+		background-size: 100%;
+	}
+}
+
+@media (max-width:768px) {
+	.steps {
+		width: 25%;
+		float: left;
+	}
+	.steps img {
+		width: 55%;
+	}
+	.steps p {
+		font-size: 1.05em;
+		margin: 11px auto 0;
+		width: 75%;
+	}
+	.steps span {
+		width: 83px;
+		top: 25.5%;
+	}
+}
+
+@media (max-width:640px) {
+	.steps p {
+		font-size: 15px;
+		margin: 10px auto 0;
+		width: 85%;
+	}
+	
+	.steps span {
+		width: 70px;
+		top: 24.5%;
+	}
+}
+
+@media (max-width:480px) {
+	.steps p {
+  	font-size: 13px;
+  	margin: 8px auto 0;
+  	width: 100%;
+	}
+	.steps img {
+		width: 75%;
+	}
+	.steps span {
+		width: 47px;
+		height: 2px;
+		right: 78%;
+	}
+}
+
+@media (max-width:320px) {
+	.steps {
+  	width: 50%;
+	}
+	.steps:nth-child(1),
+	.steps:nth-child(2){
+		margin-bottom:15px;
+	}
+	span.s-one {
+		display: none;
+	}
+	.steps p {
+		font-size: 14px;
+		margin: 10px auto 0;
+		width: 87%;
+	}
+	.steps span {
+		width: 58px;
+		height: 2px;
+		top: 27%;
+	}
+}  */
 
 
+@media screen and (min-width: 320px) {
+	.steps:nth-child(1),
+	.steps:nth-child(2){
+		margin-bottom: 0px;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 577px) {
+	.steps p {
+		font-size: 14px;
+		margin: 8px auto 0;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 578px) {
+	.steps span {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	.steps img {
+		padding: 0.5rem;
+		width: 55%;
+	}
+	
+	.steps p {
+		font-size: 1.05em;
+		margin: 11px auto 0;
+		width: 82%;
+	}
+	
+	.steps span {
+		width: 83px;
+		top: 22.5%;
+		right: 68%;
+		height: 4px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#step {
+		padding: 3em 0px;
+	}
+	
+	.steps img {
+		padding: 1.5em;
+		width: auto;
+	}
+	
+	.steps span {
+		height: 5px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {	
+	.steps img {
+		padding: 0.8rem;
+	}
+	.steps span {
+		width: 70px;
+		top: 30.5%;
+		right: 80%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {	
+	.steps p {
+		font-size: 1.25em;
+		margin: 15px auto 0;
+		width: 67%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {	
+	.steps img {
+		padding: 0.5rem;
+	}
+	.steps span {
+		width: 140px;
+		right: 70.1%;
+		top: 31.5%;
+	}
+}
+
+@media screen and (min-width: 1200px) {	
+	.steps p {
+		font-size: 1.4em;
+		margin: 20px auto 0;
+		width: 53%;
+	}
+	.steps span {
+		width: 183px;
+		right: 60.1%;
+		background-size: initial;
+	}
+}
+
+/* 
+#steps {
+	margin: 0 auto;
+}
+
+#steps a {
+	padding: 0.5em 0;
+}
+
+#steps a:hover img, #steps a:focus img {
+	border: 3px solid #ffd200;
+}
+
+#steps .offerIcon:before {
+	content: "";
+	background-image: url(images/tiretn.png);
+	width: 53px;
+	height: 2px;
+	background-color: #e2dee0;
+    vertical-align: middle;
+    display: inline-block;
+	margin: 0em 0.25em;
+}
+
+#steps img {
+    border: 3px solid #ffd200;
+    border-radius: 3.1rem;
+    padding: 1.7em;
+}
+
+@media screen and (max-width: 577px) {
+	#steps .offerIcon:before {
+		width: 0px;
+		margin: 0em 0.05em;
+	}
+	
+	#steps img {
+		border-radius: 2.1rem;
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	#steps .offerIcon:before {
+		width: 30px;
+	}
+	
+	#steps img {
+		border-radius: 2.1rem;
+		padding: 0.7em;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#steps .offerIcon:before {
+		width: 36px;
+	}
+}
+ */
 /****	FIN  STEP   ****/
 
 /***** DEBUT ADVANTAGE   ****/
