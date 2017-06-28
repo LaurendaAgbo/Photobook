@@ -371,7 +371,77 @@ span.s-one, span.s-two, span.s-tre {
 
 /***** DEBUT ADVANTAGE   ****/
 
+#advantage {
+	background-color: #f3f0e7;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	color: #000;
+}
 
+#advantageTitle h3 {
+	font-family: "PFAgora Sans Pro XThin";
+	font-size: 43px;
+	margin-bottom: 3rem;
+}
+
+#advantageItems img {
+	max-width: 270px;
+	width: 100%;
+}
+
+.advantageItemsTitle {
+	font-family: "PF Agora Sans Pro Light";
+	font-size: 18px;
+    line-height: 1.8rem;
+    font-weight: bold;
+}
+
+.advantageItemsDescription {
+	font-family: "PF Agora Sans Pro Light";
+	font-size: 16px;
+	line-height: 1.3rem;
+}
+
+#advantageMakeButton {
+	font-family: "PFAgora Sans Pro Thin";
+	font-size: 18px;
+	padding: 0.7rem 1.5rem;
+	background-color: #e11a27;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+@media screen and (min-width: 578px) {
+	#advantageTitle h3 {
+		font-size: 60px;
+	}
+	
+	#advantageMakeButton {
+		font-size: 26px;
+		padding: 1rem 3.5rem;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 991px) {
+	.advantageItemsTitle {
+		font-size: 16px;
+		line-height: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {	
+	.advantageItemsTitle {
+		font-size: 22px;
+		line-height: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 1200px) {	
+	.advantageItemsTitle {
+		font-size: 29px;
+		font-weight: normal;
+	}
+}
 
 /****	FIN  ADVANTAGE   ****/
 
