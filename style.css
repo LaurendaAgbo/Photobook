@@ -167,7 +167,7 @@ ul {
 #makeButton {
 	font-family: "PFAgora Sans Pro Thin";
 	font-size: 18px;
-	padding: 0.7rem 1.5rem;
+	padding: 0.7rem 1rem;
     border: 1px solid #010101;
 	color: #212121;
 	text-transform: uppercase;
@@ -380,7 +380,7 @@ span.s-one, span.s-two, span.s-tre {
 
 #advantageTitle h3, #testimonials h3 {
 	font-family: "PFAgora Sans Pro XThin";
-	font-size: 43px;
+	font-size: 38px;
 	margin-bottom: 3rem;
 }
 
@@ -554,6 +554,96 @@ span.s-one, span.s-two, span.s-tre {
 
 /***** DEBUT TERMS PAYMENT SHIPPING   ****/
 
+#termsPaymentShipping {
+	padding: 1rem 0;
+	color: #000;
+}
+
+.termsPaymentShippingBlocks {
+	background-color: #f7f0e6;
+	border-radius: 1rem;
+}
+
+.termsPaymentShippingBlocksTitle {
+	background-color: #ffd200;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    font-family: "PF Agora Sans Pro Light";
+    font-size: 28px;
+    padding: 0.5rem 0;
+	border-bottom: 0.5rem solid #fff;
+	text-transform: uppercase;
+}
+
+.termsPaymentShippingBlocksDescription {
+	font-family: "PFAgora Sans Pro Regular";
+    font-size: 14px;
+    padding: 0.5rem 1.5rem 1rem 1rem;
+}
+
+.termsPaymentShippingBlocksDescription ul {
+	list-style-type: disc;
+    line-height: 2.27;
+}
+
+#freeShipping {
+	font-family: "PFAgora Sans Pro Bold";
+	color: #e11a27;
+	margin-bottom: 0.8rem;
+}
+
+@media screen and (min-width: 578px) {
+	#termsPaymentShipping {
+		padding: 5rem 0;
+	}
+	
+	.termsPaymentShippingBlocksTitle {
+		padding: 1rem 0;
+	}
+	
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	#termsPaymentShipping {
+		padding: 2rem 0;
+	}
+	
+	.termsPaymentShippingBlocksDescription {
+		font-size: 16px;
+		padding: 1rem 3.8rem 2rem 2rem;
+	}
+	
+	.blocksDescription12 {
+		font-size: 16px;
+		padding: 1rem 1.8rem 2rem 2rem;
+		height: 280px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {	
+	.termsPaymentShippingBlocksDescription {
+		font-size: 16px;
+		padding: 1rem 1.8rem 2rem 2rem;
+		height: 292px;
+	}
+}
+
+@media screen and (min-width: 992px) {	
+	.termsPaymentShippingBlocksTitle {
+		font-size: 36px;
+	}
+	
+	.termsPaymentShippingBlocksDescription {
+		font-size: 18px;
+		padding: 1rem 3.8rem 2rem 2rem;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {	
+	.termsPaymentShippingBlocksDescription {
+		height: 276.8px;
+	}
+}
 
 
 /****	FIN  TERMS PAYMENT SHIPPING   ****/
