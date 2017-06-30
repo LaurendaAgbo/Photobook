@@ -1,7 +1,7 @@
 /*****     MAIN     STYLE       *****/
 
 body {
-	font-family: "Bariol Regular";
+	font-family: "PF Agora Sans Pro Light";
 }
 
 a:focus, a:hover {
@@ -159,7 +159,6 @@ ul {
 
 #slidetext2 {
 	font-size: 16px;
-	font-family: "PF Agora Sans Pro Light";
 	margin-bottom: 2.8em;
 	font-weight: 600;
 }
@@ -256,7 +255,6 @@ span.s-one, span.s-two, span.s-tre {
 	margin: 10px auto 0;
 	width: 87%;
   	line-height: 1.3em;
-	font-family: "PF Agora Sans Pro Light";
 }
 .steps span {
   	position: absolute;
@@ -390,14 +388,12 @@ span.s-one, span.s-two, span.s-tre {
 }
 
 .advantageItemsTitle {
-	font-family: "PF Agora Sans Pro Light";
 	font-size: 18px;
     line-height: 1.8rem;
     font-weight: bold;
 }
 
 .advantageItemsDescription {
-	font-family: "PF Agora Sans Pro Light";
 	font-size: 16px;
 	line-height: 1.3rem;
 }
@@ -474,17 +470,14 @@ span.s-one, span.s-two, span.s-tre {
 }
 
 #testimonyName {
-	font-family: "PF Agora Sans Pro Light";
 	font-size: 18px;
 }
 
 #testimonyFonction {
-	font-family: "PF Agora Sans Pro Light";
 	font-size: 16px;
 }
 
 .testimonyText1 {
-	font-family: "PF Agora Sans Pro Light";
 	font-size: 18px;
 }
 
@@ -568,7 +561,6 @@ span.s-one, span.s-two, span.s-tre {
 	background-color: #ffd200;
     border-top-left-radius: 0.8rem;
     border-top-right-radius: 0.8rem;
-    font-family: "PF Agora Sans Pro Light";
     font-size: 28px;
     padding: 0.5rem 0;
 	border-bottom: 0.5rem solid #fff;
@@ -650,6 +642,32 @@ span.s-one, span.s-two, span.s-tre {
 
 /***** DEBUT FOOTER   ****/
 
+#footer {
+	background-color: #ffd200;
+	padding: 3rem 0;
+	color: #000;
+	font-family: "PFAgora Sans Pro Regular";
+    font-size: 17px;
+}
 
+#copyright {
+	font-size: 12px;
+}
+
+#footerLists ul {
+	border-top: 1px solid #000;
+    padding-left: 0;
+    width: 80%;
+	padding-top: 1.5rem;
+}
+
+#socialMedia {
+	border-top: 1px solid #000;
+	padding-top: 1.5rem;
+}
+
+#socialMedia a {
+	color: #000;
+}
 
 /****	FIN  FOOTER   ****/
