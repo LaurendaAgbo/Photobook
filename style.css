@@ -82,57 +82,6 @@ ul {
 	width: 30px;
 }
 
-@media screen and (min-width: 578px) {
-	#panel .navbar {
-		padding: 0.5rem 3rem;
-		width: 100%;
-	}
-	
-	#panel .navbar-brand {
-		margin-right: 1rem;
-	}
-	
-	#logoContainer {
-		padding-left: 1em;
-	}
-
-	#navigation {
-		padding-left: 1em;
-		padding-right: 1em;
-	}
-	#navigation ul {
-		float: right;
-	}
-	
-	#contactNumber {
-		padding: 0.5rem 2rem;
-	}
-	
-	#contactNumber a {
-		font-size: 16px;
-	}
-	
-	#navigation li a img {
-		max-width: 40px;
-		width: 100%;
-	}
-}
-
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	#logo {
-		max-width: 100px;
-		width: 100%;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	#logo {
-		max-width: 170px;
-		width: 100%;
-	}
-}
-
-
 /****	FIN  PANEL   ****/
 
 /***** DEBUT MAIN BANNER   ****/
@@ -175,64 +124,6 @@ ul {
 	color: #212121;
 	text-transform: uppercase;
 }
-
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	#headerText {
-		min-height: 350px;
-		padding: 60px 0 0;
-	}
-	/* 
-	#slidetext1 {
-		font-size: 24px;
-	}
-	
-	#slidetext1 span {
-		font-size: 36px;
-	}
-	
-	#slidetext2 {
-		font-size: 16px;
-	} */
-}
-
-@media screen and (min-width: 768px) {
-	#headerText {
-		min-height: 370px;
-		padding: 50px 0 290px;
-	}
-	
-	#slidetext1 {
-		font-size: 48px;
-	}
-	
-	#slidetext1 span {
-		font-size: 60px;
-	}
-	
-	#slidetext2 {
-		font-size: 24px;
-	}
-	
-	#makeButton {
-		padding: 1rem 3.5rem;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	#headerText {
-		min-height: 370px;
-		padding: 50px 0 200px;
-	}
-	
-	#slidetext1 {
-		font-size: 38px;
-	}
-	
-	#slidetext1 span {
-		font-size: 50px;
-	}
-}
-
 
 /****	FIN  MAIN BANNER   ****/
 
@@ -282,105 +173,6 @@ span.s-one, span.s-two, span.s-tre {
 	background-size: 100%;
 }
 
-@media screen and (min-width: 320px) {
-	.steps:nth-child(1),
-	.steps:nth-child(2){
-		margin-bottom: 0px;
-	}
-}
-
-@media screen and (min-width: 321px) and (max-width: 577px) {
-	.steps p {
-		font-size: 14px;
-		margin: 8px auto 0;
-		width: 100%;
-	}
-}
-
-@media screen and (min-width: 578px) {
-	.steps span {
-		display: block;
-	}
-}
-
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	.steps img {
-		padding: 0.5rem;
-		width: 55%;
-	}
-	
-	.steps p {
-		font-size: 1.05em;
-		margin: 11px auto 0;
-		width: 82%;
-	}
-	
-	.steps span {
-		width: 83px;
-		top: 22.5%;
-		right: 68%;
-		height: 4px;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	#step {
-		padding: 3em 0px;
-	}
-	
-	.steps img {
-		padding: 1.5em;
-		width: auto;
-	}
-	
-	.steps span {
-		height: 5px;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {	
-	.steps img {
-		padding: 0.8rem;
-	}
-	.steps span {
-		width: 70px;
-		top: 30.5%;
-		right: 80%;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {	
-	.steps p {
-		font-size: 1.25em;
-		margin: 15px auto 0;
-		width: 67%;
-	}
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {	
-	.steps img {
-		padding: 0.5rem;
-	}
-	.steps span {
-		width: 140px;
-		right: 70.1%;
-		top: 31.5%;
-	}
-}
-
-@media screen and (min-width: 1200px) {	
-	.steps p {
-		font-size: 1.4em;
-		margin: 20px auto 0;
-		width: 53%;
-	}
-	.steps span {
-		width: 183px;
-		right: 60.1%;
-		background-size: initial;
-	}
-}
-
 /****	FIN  STEP   ****/
 
 /***** DEBUT ADVANTAGE   ****/
@@ -423,38 +215,6 @@ span.s-one, span.s-two, span.s-tre {
 	text-transform: uppercase;
 }
 
-@media screen and (min-width: 578px) {
-	#advantageTitle h3, #testimonials h3 {
-		font-size: 60px;
-	}
-	
-	#advantageMakeButton {
-		font-size: 26px;
-		padding: 1rem 3.5rem;
-	}
-}
-
-@media screen and (min-width: 578px) and (max-width: 991px) {
-	.advantageItemsTitle {
-		font-size: 16px;
-		line-height: 1.5rem;
-	}
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {	
-	.advantageItemsTitle {
-		font-size: 22px;
-		line-height: 1.5rem;
-	}
-}
-
-@media screen and (min-width: 1200px) {	
-	.advantageItemsTitle {
-		font-size: 29px;
-		font-weight: normal;
-	}
-}
-
 /****	FIN  ADVANTAGE   ****/
 
 /***** DEBUT READY SOLUTIONS   ****/
@@ -476,15 +236,13 @@ span.s-one, span.s-two, span.s-tre {
     position: absolute;
     width: 55%;
     left: 24%;
-    /* text-align: right;
-	margin-left: 41px; */
     margin-top: -20px;
 }
 
 #trapezoid p {
 	color: #e11a27;
 	font-family: "PFAgora Sans Pro Bold";
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
 }
 
@@ -530,123 +288,6 @@ span.s-one, span.s-two, span.s-tre {
     border-bottom-right-radius: 0.8rem;
     padding: .8rem;
     font-size: 17.67px;
-}
-
-@media screen and (min-width: 578px) {
-	#readySolutions {
-		padding: 5rem 0;
-	}
-	
-	.readySolutionsBlocksTitle {
-		padding: 2.5rem 0;
-	}
-}
-
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	#readySolutions {
-		padding: 2rem 0;
-	}
-	
-	#trapezoid p {
-		font-size: 14px;
-	}
-
-	.readySolutionsBlocksTitle {
-		font-size: 28px;
-		padding: 2rem 0;
-	}
-	
-	.readySolutionsBlocksTitle span {
-		font-size: 34px;
-	}
-	
-	.readySolutionsBlocksDescription {
-		font-size: 16px;
-		padding: 1rem 0rem 0rem 1rem;
-	}
-	
-	.readyblocksDescription12 {
-		padding: 0.5rem 0rem 0rem 1rem;
-		height: 213.8px;
-	}
-	
-	.readySolutionsBlocksDescription3 ul {
-		margin-bottom: 0px;
-	}
-	
-	.readyblocksDescription12 .price {
-		position: absolute;
-		bottom: 0;
-		left: 30%;
-	}
-	
-	.premiumClassic {
-		font-size: 18.67px;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	#trapezoid {
-		width: 60%;
-		left: 21%;
-	}
-	
-	#trapezoid p {
-		font-size: 14px;
-	}
-	
-	.readySolutionsBlocksDescription {
-		font-size: 16px;
-		padding: 0.5rem 0rem 0rem 1rem;
-		height: 249.8px;
-	}
-	
-	.price {
-		font-size: 40px;
-		position: absolute;
-		bottom: 0;
-		left: 23%;
-	}
-	
-	.premiumClassic {
-		font-size: 15.67px;
-	}
-}
-
-@media screen and (min-width: 992px) {
-	#trapezoid p {
-		font-size: 16.76px;
-	}
-	.readySolutionsBlocksTitle {
-		font-size: 30px;
-	}
-	
-	.readySolutionsBlocksTitle span {
-		font-size: 36px;
-	}
-	
-	.readySolutionsBlocksDescription {
-		font-size: 18px;
-		padding: .5rem 0rem 0rem 1.5rem;
-		height: 302.8px;
-	}
-	
-	.price {
-		font-size: 60px;
-		position: absolute;
-		bottom: 0;
-		left: 25%;
-	}
-	
-	.premiumClassic {
-		font-size: 21.67px;
-	}
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {	
-	.readySolutionsBlocksDescription {
-		/* height: 276.8px; */
-	}
 }
 
 /****	FIN  READY SOLUTIONS   ****/
@@ -700,53 +341,6 @@ span.s-one, span.s-two, span.s-tre {
 	color: #000;
 }
 
-@media screen and (min-width: 480px) and (max-width: 577px) {
-	#doe {
-		padding: 2rem 0rem;
-	}
-}
-
-@media screen and (min-width: 578px) and (max-width: 767px) {	
-	#doe {
-		padding: 3rem 0rem;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {	
-	#doe {
-		padding: 1rem 0.5rem;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {	
-	#testimonyName {
-		font-family: "PF Agora Sans Pro Light";
-		font-size: 30px;
-	}
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {	
-	#doe {
-		padding: 2rem 0.5rem;
-	}
-}
-
-@media screen and (min-width: 1200px) {	
-	#testimony img {
-		max-width: 170px;
-		width: auto;
-	}
-	
-	#testimonyName {
-		font-family: "PF Agora Sans Pro Light";
-		font-size: 30px;
-	} 
-	
-	#doe {
-		padding: 3.5rem 2.5rem;
-	}
-}
-
 /****	FIN  TESTIMONIALS   ****/
 
 /***** DEBUT TERMS PAYMENT SHIPPING   ****/
@@ -788,60 +382,6 @@ span.s-one, span.s-two, span.s-tre {
 	margin-bottom: 0.8rem;
 }
 
-@media screen and (min-width: 578px) {
-	#termsPaymentShipping {
-		padding: 5rem 0;
-	}
-	
-	.termsPaymentShippingBlocksTitle {
-		padding: 1rem 0;
-	}
-	
-}
-
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	#termsPaymentShipping {
-		padding: 2rem 0;
-	}
-	
-	.termsPaymentShippingBlocksDescription {
-		font-size: 16px;
-		padding: 1rem 3.8rem 2rem 2rem;
-	}
-	
-	.blocksDescription12 {
-		font-size: 16px;
-		padding: 1rem 1.8rem 2rem 2rem;
-		height: 280px;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {	
-	.termsPaymentShippingBlocksDescription {
-		font-size: 16px;
-		padding: 1rem 1.8rem 2rem 2rem;
-		height: 292px;
-	}
-}
-
-@media screen and (min-width: 992px) {	
-	.termsPaymentShippingBlocksTitle {
-		font-size: 36px;
-	}
-	
-	.termsPaymentShippingBlocksDescription {
-		font-size: 18px;
-		padding: 1rem 3.8rem 2rem 2rem;
-	}
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {	
-	.termsPaymentShippingBlocksDescription {
-		height: 276.8px;
-	}
-}
-
-
 /****	FIN  TERMS PAYMENT SHIPPING   ****/
 
 /***** DEBUT FOOTER   ****/
@@ -875,3 +415,422 @@ span.s-one, span.s-two, span.s-tre {
 }
 
 /****	FIN  FOOTER   ****/
+
+/****   DEBUT MEDIA QUERIES    ****/
+
+@media screen and (min-width: 320px) {
+	.steps:nth-child(1),
+	.steps:nth-child(2){
+		margin-bottom: 0px;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 577px) {
+	.steps p {
+		font-size: 14px;
+		margin: 8px auto 0;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 577px) {
+	#doe {
+		padding: 2rem 0rem;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	#logo {
+		max-width: 100px;
+		width: 100%;
+	}
+	
+	
+	#headerText {
+		min-height: 350px;
+		padding: 60px 0 0;
+	}
+	
+	
+	.steps img {
+		padding: 0.5rem;
+		width: 55%;
+	}
+	
+	.steps p {
+		font-size: 1.05em;
+		margin: 11px auto 0;
+		width: 82%;
+	}
+	
+	.steps span {
+		width: 83px;
+		top: 22.5%;
+		right: 68%;
+		height: 4px;
+	}
+	
+	
+	#readySolutions {
+		padding: 2rem 0;
+	}
+	
+	#trapezoid p {
+		font-size: 14px;
+	}
+
+	.readySolutionsBlocksTitle {
+		font-size: 28px;
+		padding: 2rem 0;
+	}
+	
+	.readySolutionsBlocksTitle span {
+		font-size: 34px;
+	}
+	
+	.readySolutionsBlocksDescription {
+		font-size: 16px;
+		padding: 1rem 0rem 0rem 1rem;
+	}
+	
+	.readyblocksDescription12 {
+		padding: 0.5rem 0rem 0rem 1rem;
+		height: 213.8px;
+	}
+	
+	.readySolutionsBlocksDescription3 ul {
+		margin-bottom: 0px;
+	}
+	
+	.readyblocksDescription12 .price {
+		position: absolute;
+		bottom: 0;
+		left: 30%;
+	}
+	
+	.premiumClassic {
+		font-size: 18.67px;
+	}
+	
+	
+	#doe {
+		padding: 3rem 0rem;
+	}
+	
+	
+	#termsPaymentShipping {
+		padding: 2rem 0;
+	}
+	
+	.termsPaymentShippingBlocksDescription {
+		font-size: 16px;
+		padding: 1rem 3.8rem 2rem 2rem;
+	}
+	
+	.blocksDescription12 {
+		font-size: 16px;
+		padding: 1rem 1.8rem 2rem 2rem;
+		height: 280px;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 991px) {
+	.advantageItemsTitle {
+		font-size: 16px;
+		line-height: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 578px) {
+	#panel .navbar {
+		padding: 0.5rem 3rem;
+		width: 100%;
+	}
+	
+	#panel .navbar-brand {
+		margin-right: 1rem;
+	}
+	
+	#logoContainer {
+		padding-left: 1em;
+	}
+
+	#navigation {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	#navigation ul {
+		float: right;
+	}
+	
+	#contactNumber {
+		padding: 0.5rem 2rem;
+	}
+	
+	#contactNumber a {
+		font-size: 16px;
+	}
+	
+	#navigation li a img {
+		max-width: 40px;
+		width: 100%;
+	}
+	
+	
+	.steps span {
+		display: block;
+	}
+	
+	
+	#advantageTitle h3, #testimonials h3 {
+		font-size: 60px;
+	}
+	
+	#advantageMakeButton {
+		font-size: 26px;
+		padding: 1rem 3.5rem;
+	}
+	
+	
+	#readySolutions {
+		padding: 5rem 0;
+	}
+	
+	.readySolutionsBlocksTitle {
+		padding: 2.5rem 0;
+	}
+	
+	
+	#termsPaymentShipping {
+		padding: 5rem 0;
+	}
+	
+	.termsPaymentShippingBlocksTitle {
+		padding: 1rem 0;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#logo {
+		max-width: 170px;
+		width: 100%;
+	}
+	
+	
+	#headerText {
+		min-height: 370px;
+		padding: 50px 0 290px;
+	}
+	
+	#slidetext1 {
+		font-size: 48px;
+	}
+	
+	#slidetext1 span {
+		font-size: 60px;
+	}
+	
+	#slidetext2 {
+		font-size: 24px;
+	}
+	
+	#makeButton {
+		padding: 1rem 3.5rem;
+	}
+	
+	
+	#step {
+		padding: 3em 0px;
+	}
+	
+	.steps img {
+		padding: 1.5em;
+		width: auto;
+	}
+	
+	.steps span {
+		height: 5px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#headerText {
+		min-height: 370px;
+		padding: 50px 0 200px;
+	}
+	
+	#slidetext1 {
+		font-size: 38px;
+	}
+	
+	#slidetext1 span {
+		font-size: 50px;
+	}
+	
+	
+	.steps img {
+		padding: 0.8rem;
+	}
+	.steps span {
+		width: 70px;
+		top: 30.5%;
+		right: 80%;
+	}
+	
+	
+	#trapezoid {
+		width: 60%;
+		left: 21%;
+	}
+	
+	#trapezoid p {
+		font-size: 14px;
+	}
+	
+	.readySolutionsBlocksDescription {
+		font-size: 16px;
+		padding: 0.5rem 0rem 0rem 1rem;
+		height: 249.8px;
+	}
+	
+	.price {
+		font-size: 40px;
+		position: absolute;
+		bottom: 0;
+		left: 23%;
+	}
+	
+	.premiumClassic {
+		font-size: 15.67px;
+	}
+	
+	
+	#doe {
+		padding: 1rem 0.5rem;
+	}
+	
+	
+	.termsPaymentShippingBlocksDescription {
+		font-size: 16px;
+		padding: 1rem 1.8rem 2rem 2rem;
+		height: 292px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {	
+	.steps p {
+		font-size: 1.25em;
+		margin: 15px auto 0;
+		width: 67%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {	
+	#testimonyName {
+		font-family: "PF Agora Sans Pro Light";
+		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {	
+	.steps img {
+		padding: 0.5rem;
+	}
+	.steps span {
+		width: 140px;
+		right: 70.1%;
+		top: 31.5%;
+	}
+	
+	
+	.advantageItemsTitle {
+		font-size: 22px;
+		line-height: 1.5rem;
+	}
+	
+	
+	#doe {
+		padding: 2rem 0.5rem;
+	}
+	
+	
+	.termsPaymentShippingBlocksDescription {
+		height: 276.8px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#trapezoid p {
+		font-size: 16.76px;
+	}
+	.readySolutionsBlocksTitle {
+		font-size: 30px;
+	}
+	
+	.readySolutionsBlocksTitle span {
+		font-size: 36px;
+	}
+	
+	.readySolutionsBlocksDescription {
+		font-size: 18px;
+		padding: .5rem 0rem 0rem 1.5rem;
+		height: 302.8px;
+	}
+	
+	.price {
+		font-size: 60px;
+		position: absolute;
+		bottom: 0;
+		left: 25%;
+	}
+	
+	.premiumClassic {
+		font-size: 21.67px;
+	}
+	
+	
+	.termsPaymentShippingBlocksTitle {
+		font-size: 36px;
+	}
+	
+	.termsPaymentShippingBlocksDescription {
+		font-size: 18px;
+		padding: 1rem 3.8rem 2rem 2rem;
+	}
+}
+
+@media screen and (min-width: 1200px) {	
+	.steps p {
+		font-size: 1.4em;
+		margin: 20px auto 0;
+		width: 53%;
+	}
+	.steps span {
+		width: 183px;
+		right: 60.1%;
+		background-size: initial;
+	}
+	
+	
+	.advantageItemsTitle {
+		font-size: 29px;
+		font-weight: normal;
+	}
+	
+	
+	#testimony img {
+		max-width: 170px;
+		width: auto;
+	}
+	
+	#testimonyName {
+		font-family: "PF Agora Sans Pro Light";
+		font-size: 30px;
+	} 
+	
+	#doe {
+		padding: 3.5rem 2.5rem;
+	}
+}
+
+/****   FIN MEDIA QUERIES    ****/
